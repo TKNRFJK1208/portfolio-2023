@@ -1,7 +1,10 @@
 <script setup>
+const { toTitleCase } = useUtilities();
+
 useHead({
-  title: 'Home',
+  title: toTitleCase('home'),
 })
+
 </script>
 
 <template>
